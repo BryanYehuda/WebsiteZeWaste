@@ -87,3 +87,32 @@ body {
 #layout img {
     margin-top: 20px;
 }
+
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+}
+
+.social-media-footer {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 300;
+    margin-left: 3px;
+}
+
+.right {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.left {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 15px;
+}
