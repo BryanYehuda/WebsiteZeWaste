@@ -85,9 +85,7 @@ body {
     font-size: 20px;
 }
 
-
 /* CTA */
-
 
 #cta{
     background-color: #212121;
@@ -116,4 +114,37 @@ body {
     font-weight: 400; 
     color: #ffffff; 
     font-size: 18px;
+}
+
+/* Options */
+
+#options{
+    background-color: #0F0022;
+    overflow: hidden;
+}
+
+#options h2{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+}
+
+#options .lead{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+}
+
+#options .btn{
+    background-color: transparent; 
+    border-color: #ffffff; 
+    margin-right: 20px; 
+    font-weight: 400; 
+    color: #ffffff; 
+    font-size: 18px;
+    margin-top: -60px;
+    margin-bottom: 60px;
 }
