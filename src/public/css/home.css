@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #000000;
 }
 
 /* Navbar */
@@ -147,4 +148,33 @@ body {
     font-size: 18px;
     margin-top: -60px;
     margin-bottom: 60px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #000000;
+}
+
+.social-media-footer{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 3px;
+}
+
+.right
+{
+    margin-top: -10px;
+}
+
+.left{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 15px;
 }
