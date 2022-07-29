@@ -52,16 +52,16 @@ body {
 }
 
 
-/* Email Sent */
+/* Complete */
 
-#email-sent h2 {
+#complete h2 {
     font-family: 'Inter', sans-serif;
     color: #ffffff;
     font-weight: 400;
     text-align: center;
 }
 
-#email-sent p {
+#complete p {
     font-family: 'Inter', sans-serif;
     color: #ffffff;
     font-weight: 300;
