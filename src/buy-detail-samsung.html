@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="public/css/buy.css" />
+    <link rel="stylesheet" href="public/css/buy-detail-samsung.css" />
     <link rel="stylesheet" href="public/css/queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,32 +73,82 @@
     </nav><br><br>
     <!-- Nav Ends -->
 
-    <!-- Layout Starts -->
-    <section id="layout">
-        <div class="row">
-            <div class="col col-12 col-sm-6 col-lg-3">
-                <a href="buy-detail-iphone.html">
-                    <img src="public/images/buy/Iphone.png" class="img-fluid mx-auto d-block hero-small" style="margin-left: 50px !important;" alt="Buy image" loading="lazy">
-                </a>
-            </div>
-            <div class="col col-12 col-sm-6 col-lg-3">
-                <a href="buy-detail-samsung.html">
-                    <img src="public/images/buy/Samsung.png" class="img-fluid mx-auto d-block hero-small" alt="Buy image" loading="lazy">
-                </a>
-            </div>
-        </div>
-    </section><br><br>
-    <!-- Layout Ends -->
-
-    <!-- Button Starts -->
-    <section id="button">
-        <div class="row">
-            <div class="col col-6 offset-3">
-                <a href="sell.html" class="btn btn-primary d-block">I want to sell my phone</a>
+    <!-- Card Starts -->
+    <section id="card">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card text-white bg-dark">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col col-12 col-md-6">
+                                    <img src="public/images/buy-detail-samsung/Samsung.png" class="img-fluid mx-auto d-block hero-small" alt="Iphone Details Image" width="450" loading="lazy">
+                                </div>
+                                <div class="col col-12 col-md-6">
+                                    <h2>Samsung S20 Ultra</h2>
+                                    <h5>IDR 7.559.000</p>
+                                        <hr/>
+                                        <div class="row">
+                                            <div class="col-12 col-md-6">
+                                                <p>Color</p>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="row">
+                                                    <div class="col col-3">
+                                                        <img src="public/images/default/Ellipse 3.png" class="img-fluid hero-small d-inline" alt="Black" loading="lazy">
+                                                    </div>
+                                                    <div class="col col-3">
+                                                        <img src="public/images/default/Ellipse 4.png" class="img-fluid hero-small d-inline" alt="White" loading="lazy">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-6">
+                                                <p>Memory</p>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        64 GB
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <a class="dropdown-item" href="#">128 GB</a>
+                                                        <a class="dropdown-item" href="#">64 GB</a>
+                                                        <a class="dropdown-item" href="#">32 GB</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-6">
+                                                <p>Condition</p>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      A+
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <a class="dropdown-item" href="#">A+</a>
+                                                        <a class="dropdown-item" href="#">A</a>
+                                                        <a class="dropdown-item" href="#">B</a>
+                                                        <a class="dropdown-item" href="#">C</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr/>
+                                        <a href="checkout.html" class="btn btn-primary d-block checkout">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Button Ends -->
+    <!-- Card Ends -->
 
     <!-- Script Starts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
